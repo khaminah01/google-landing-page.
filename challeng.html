@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>GMAIL</title>
+        <style>
+               * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 50%;
+  padding: 10px;
+  margin: 2px 0 20px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: 20px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 14px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 10px 14px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 5%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 5px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 20px) {
+  .cancelbtn, .signupbtn {
+    width: 40%;
+  }
+}
+              </style>
+ </head>
+ <body>
+<form action="action_page.php" style="border:2px solid #ccc">
+        <div style="text-align: center; margin: 100px;" class="container;">
+
+                <h1 style=" font-size:55px;">
+                        <span style="color:blue;opacity:0.65">G</span
+                        ><span style="color:red;opacity:0.65">o</span
+                        ><span style="color:yellow;opacity:0.65">o</span
+                        ><span style="color:blue;opacity:0.65">g</span
+                        ><span style="color:green;opacity:0.65">l</span
+                        ><span style="color:red;opacity:0.65">e</span>
+                      </h1>
+          <h1 style="font-size: 30px";>Sign Up</h1>
+          <p style="font-size: 25px";>Please fill in this form to create an account.</p>
+          <hr>
+
+          <label for="name"><b>first name</b></label>
+          <input type="text" placeholder="Enter your first name" name="firstname" required><br>
+      
+          <label for="name"><b>last name</b></label>
+          <input type="text" placeholder="Enter your last name" name="lastname" required><br>
+      
+          <label for="age"><b>age</b></label>
+          <input type="text" placeholder="Enter your age" name="age" required><br>
+      
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required><br>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required><br>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <!-- buttons -->
+      <div>
+            <button>cancel.</button><br>
+            <button>sign up</button>
+          </div>
+        </div>
+      </form>
+           </body>
+
+
+</html>
